@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HCPods_Example' do
+  pod 'HCPods', :path => '../'
+
+  target 'HCPods_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
