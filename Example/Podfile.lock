@@ -1,0 +1,16 @@
+PODS:
+  - HCPods (0.1.0)
+
+DEPENDENCIES:
+  - HCPods (from `../`)
+
+EXTERNAL SOURCES:
+  HCPods:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HCPods: ff781d5bf4aa2c52f44ed080c4257171e887c59f
+
+PODFILE CHECKSUM: 7d7987214fa46ef91815d08be8a9dd6a4c22dfbd
+
+COCOAPODS: 1.2.1
