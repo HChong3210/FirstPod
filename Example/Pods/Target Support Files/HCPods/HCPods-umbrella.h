@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "HCFirstPod.h"
 
 FOUNDATION_EXPORT double HCPodsVersionNumber;
 FOUNDATION_EXPORT const unsigned char HCPodsVersionString[];

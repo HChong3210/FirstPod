@@ -1,8 +1,8 @@
 {
   "name": "HCPods",
   "version": "0.1.0",
-  "summary": "A short description of HCPods.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "你在搜索时会呈现",
+  "description": "这里是关于你Pod功能的描述",
   "homepage": "https://github.com/HChong3210/HCPods",
   "license": {
     "type": "MIT",
@@ -18,5 +18,20 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "HCPods/Classes/**/*"
+  "source_files": "HCPods/Classes/**/*",
+  "resource_bundles": {
+    "DFCForms": [
+      "HCPods/Assets/*.{png,xib,plist}"
+    ]
+  },
+  "public_header_files": "DFCForms/Classes/**/*.h",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ],
+    "SDWebImage": [
+
+    ]
+  }
 }
